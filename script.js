@@ -96,7 +96,7 @@ function calcDimWeights(cart){
 }
 
 /* calcShipping(cart, dimWeights): Go through each item in the cart and calculate shipping from dimWeights. Total that up.  
- * We will be shipping within Zone 1, Advantage, via USPS so rate is $1.60 per DimWeight.  So: Loop over each dimWeight, 
+ * We will be shipping within Zone 1, Advantage, via USPS so rate is $.80 per DimWeight.  So: Loop over each dimWeight, 
  * multiply by $.80 and add that to total shipping. 
  * @param: dimWeights array
  * @return: totalShipping
